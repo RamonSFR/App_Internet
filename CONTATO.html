@@ -1,0 +1,69 @@
+<html style="padding-left: 50px; padding-right: 50px;">
+    <head>
+        <title>Formulário HTML</title>
+    </head>
+    <header style="background-color: blue; text-align: center; padding: 10px 0; font-size: 30px;" id="topo">
+        <h1>HTML <sup>Linguagem de Marcação de HiperTexto</sup> </h1>
+        <h3>Tutorial para Iniciantes</h2>
+    </header>
+    <nav style="text-align: center;">
+        <ul style="list-style:none; display: flex;justify-content:space-between;background-color: blue;padding: 10px">
+            <li style="flex-grow: 1;"> <a href="index.html" style="color: white; text-decoration: none;">Início</a> </li>
+            <li style="flex-grow: 1;"> <a href="index.html#HTML" style="color: white; text-decoration: none;">HTML</a> </li>
+            <li style="flex-grow: 1;"> <a href="index.html#Tabela" style="color: white; text-decoration: none;">Tabelas e Listas</a> </li>
+            <li style="flex-grow: 1;"> <a href="index.html#CSS" style="color: white; text-decoration: none;">Sobre HTML,CSS,JS</a> </li>
+            <li style="flex-grow: 1;"> <a href="index.html#rodape" style="color: white; text-decoration: none;">Links</a> </li>
+            <li style="flex-grow: 1;"> <a href="CONTATO.html" style="color: white; text-decoration: none;">Fale Conosco</a> </li>
+        </ul>
+    </nav>
+    <div style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; color: black; background-color: rgb(42, 42, 248);">
+        <h1>Formulário de Satisfação</h1>
+    </div>
+    <hr>
+
+    <body>
+        <div style="font-family: Arial, Helvetica, sans-serif ; color: blue; font-size: 125%; text-align: center;">
+            <form metheod="get" action="obrigado.html">
+                <label>Digite seu nome: </label>
+                <input type="Text" name="nome" required> <br>
+                <label>Digite seu email: </label>
+                <input type="email" name="email" required> <br>
+                <label>Assunto</label>
+                <select name="assunto">
+                    <option value="sugestao">Sugestão</option>
+                    <option value="critica">Crítica</option>
+                    <option value="elogio" selected>Elogio</option>
+                </select> <br>
+                <label>Mensagem: </label> <br>
+                <textarea name="mensagem" cols="100" rows="10"></textarea> <br>
+                <input type="submit" name="enviar mensagem" value="enviar mensagem">
+                <input type="checkbox" name="termos" required> Aceito os termos e condições
+                do site <br>
+                <input type="reset" value="redefinir">
+            </form>
+        </div>
+        <hr style="padding-bottom: 400px
+        ;">
+        <footer id="rodape" style="padding-bottom: 20px; display: flex;font-size: 20px; text-align: left;">
+            <section style="background-color: grey;height: 200px; width: 50%;">
+                <h1>Sobre</h1>
+                <ol>
+                    <li><a href="index.html" style="color: rgb(4, 0, 255);">Topo</a></li>
+                    <li>Política de Privacidade</li>
+                    <li><a href="CONTATO.html" style="color: rgb(4, 0, 255);">Fale Conosco</a></li>
+                </ol>
+            </section>
+            <section style="background-color: rgb(255, 255, 255);height: 200px;width: 50%;">
+                <h1>Referências</h1>
+                <ol>
+                    <li><a href="https://www.youtube.com/watch?v=RISPTY1Lh2A&pp=ygUMb3F1ZSDDqSBodG1s" style="color: rgb(4, 0, 255);" target="_blank">Youtube</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" style="color:(4, 0, 255);" target="_blank">Curso gratuito HTML e CSS</a> </li>
+                    <li><a href="https://www.alura.com.br/planos-cursos-online?gclid=CjwKCAjwov6hBhBsEiwAvrvN6BxNadEbEdipCqtkQOUP34cN61ZcUMZMqfE_l5m-2ucYuKq5l6mgphoCRiYQAvD_BwE" style="color: rgb(4, 0, 255);" target="_blank">Alura</a></li>
+                </ol>
+            </section> 
+        </footer>
+        <div style="text-align: center;font-size: 15px;color: grey;padding-bottom: 100px;">
+            Todos os Direitos Reservados &copy; RamonSávio
+        </div>
+    </body>
+</html>
